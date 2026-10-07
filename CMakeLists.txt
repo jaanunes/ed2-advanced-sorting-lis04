@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 4.3)
+project(ed2_advanced_sorting_list04)
+
+set(CMAKE_CXX_STANDARD 20)
+
+#add_executable(ed2_advanced_sorting_list04 main.cpp)
+
+add_executable(Exer01_MergeSortCountInversions src/Exer01_MergeSortCountInversions.cpp)
+add_executable(Exer02_StabilityMergeSortVsQuickSort src/Exer02_StabilityMergeSortVsQuickSort.cpp)
+add_executable(Exer03_QuickselectLomutoKthLargest src/Exer03_QuickselectLomutoKthLargest.cpp)
+add_executable(Exer04_HoarePartitionParitySort src/Exer04_HoarePartitionParitySort.cpp)
+
+add_executable(main_app main.cpp)
